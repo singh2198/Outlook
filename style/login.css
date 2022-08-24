@@ -1,0 +1,40 @@
+body{
+    
+    
+    /* background-color: rgb(181, 222, 222); */
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 324px;
+    margin-top: 40px;
+    /* border-style: groove; */
+}
+form>h2{
+    text-align: center;
+}
+input{
+    width: 98%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: auto;
+    border-style: 1px ;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+
+}
+form>p{
+    text-align: center;
+    
+}
+#submit{
+    border-style: none;
+    background-color: black;
+    color: aliceblue;
+}
+#submit:hover{
+    background-color: rgb(247, 31, 31);
+    cursor: pointer;
+}
