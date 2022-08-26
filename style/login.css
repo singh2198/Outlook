@@ -31,10 +31,64 @@ form>p{
 }
 #submit{
     border-style: none;
-    background-color: black;
+    background-color: #212020;
+    
     color: aliceblue;
 }
 #submit:hover{
     background-color: rgb(247, 31, 31);
     cursor: pointer;
+}
+#footer{
+    background-color: rgb(19, 17, 17);
+    height: 400px;
+    width: 99%;
+    display: grid;
+    justify-content: space-evenly;
+    /* margin: auto; */
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,300px);
+    /* height: 1000%; */
+}
+#footer>div{
+    /* border-style: groove; */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* margin: 10px; */
+}
+#main{
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: white;
+    border-bottom: 1px solid red;
+}
+.footerp{
+    color:#b1aeae;
+}
+.footerp:hover{
+    cursor: pointer;
+    color:#f04c4c;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#social>p{
+    color:#b1aeae;
+}
+#copyright{
+    text-align: center;
+    color: #b1aeae;
+    background-color: #212020;
+    margin: 0px ;
+    padding: 0px ;
+    height: 20px;
+    width: 99%;
+    
+}
+#copyright>p{
+    margin: 0px;
 }

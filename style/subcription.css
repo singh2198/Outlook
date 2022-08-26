@@ -43,26 +43,27 @@ p{
 }
 #subbody>div{
     width:30%;
-    height: 713px;
+    height: 730px;
     border-style: groove;
     border-radius: 10px;
 }
 .radio{
     display: flex;
-    height: 38px;
+    height: 55px;
     border-color: #676f81;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     /* justify-content:space-evenly; */
-}
-.radio>div{
-    display: flex;
-}  
+    margin: 9px;
+    border-bottom: 1px solid grey;
+} 
 #rupe{
     font-size: 19px;
     color: rgb(235, 111, 111);
     text-decoration: line-through;
+    margin-top: 24px;
 } 
 #innerdiv{
+    display: flex;
     justify-content: end;
     margin: 0px 0px 0px 86px;
 }
@@ -70,11 +71,13 @@ p{
     margin-left: 12px;
     color: rgb(235, 111, 111);
     font-size: 19px;
+    margin-top: 24px;
 } 
 #percen{
     margin-left: 12px;
     color: rgb(235, 111, 111);
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: 29px;
 }
 span>h3{
     text-align: center;
@@ -89,6 +92,7 @@ span>h3{
     padding: auto;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid grey;
 }
 #offerh{
     text-align: center;
@@ -156,11 +160,39 @@ span>h3{
 }
 #button{
     width:90% ;
-    height: 60px;
-    border-style: groove;
+    height: 58px;
+    /* border-style: groove; */
     border-radius: 23px;
     margin:41px 0px 0px 14px;
     font-size: 23px;
     background-color: rgb(240, 51, 51);
 }
+#btn{
+    width:90% ;
+    height: 58px;
+    /* border-style: groove; */
+    border-radius: 23px;
+    margin:265px 0px 0px 14px;
+    font-size: 23px;
+    background-color: rgb(240, 51, 51);
+}
+
+/* @media all and   (min-width:500px) and (max-width:1024px){
+
+    #subbody{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+        
+    }
+    #subbody>div{
+        width:97%;
+        height: 730px;
+        border-style: groove;
+        border-radius: 10px;
+        margin: auto;
+    }
+} */
+
 
