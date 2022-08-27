@@ -8,7 +8,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 324px;
+    height: 380px;
     margin-top: 40px;
     /* border-style: groove; */
 }
@@ -17,7 +17,7 @@ form>h2{
 }
 input{
     width: 98%;
-    height: 80px;
+    height: 56px;
     margin: auto;
     margin-bottom: 20px;
     padding: auto;
@@ -91,4 +91,60 @@ form>p{
 }
 #copyright>p{
     margin: 0px;
+}
+#errormobile{
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+    font-size: 10px;
+    margin-top: -19px;
+    color: red;
+    font-family: emoji;
+}
+#erroepass{
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+    font-size: 10px;
+    margin-top: -19px;
+    color: red;
+    font-family: emoji;
+}
+
+@media all and (min-width:370px) and (max-width:420px){
+
+    form{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 54%;
+        height: 386px;
+        margin-top: 40px;
+        /* border-style: groove; */
+    }
+
+    input{
+        width: 93%;
+        height: 42px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: auto;
+        border-style: 1px ;
+        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    
+    }
+
+    #footer{
+        background-color: rgb(19, 17, 17);
+        height: auto;
+        width: 99%;
+        display: grid;
+        justify-content: space-evenly;
+        /* margin: auto; */
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,414px);
+        /* height: 1000%; */
+    }
+    
+
 }
