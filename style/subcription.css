@@ -138,46 +138,93 @@ span>h3{
     margin: auto;
     display: flex;
     margin-top: 27px;
-    height: 41px;
+    height: 27px;
     width: 73%;
     height: 35px;
     margin-left: 47px;
     padding: 7px;
-    border-radius: 10px;
+    border-radius: 5px;
+
+    
+    
+    border: 1px solid #15213d;
+    background-color: #fff;
 }
 #apply{
-    width: 37%;
-    /* margin: auto; */
+    width: 14%;
     display: flex;
     margin-top: 27px;
-    height: 47px;
-    margin-left: 22px;
-    padding: 1px;
+    height: 28px;
+    margin-left: 10px;
+    padding: 9px 13px;
     display: flex;
-    text-align: center;
-    border-style: groove;
-    border-radius: 10px;
+    border-radius: 10px;  
+    border: 1px solid #15213d;  
+    
+    
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
 }
 #button{
     width:90% ;
-    height: 58px;
-    /* border-style: groove; */
+    height: 50px;
     border-radius: 23px;
     margin:41px 0px 0px 14px;
     font-size: 23px;
     background-color: rgb(240, 51, 51);
+    border: 1px solid #15213d;  
+    color: #fff;
+    bottom: -20px;
+    left: 38px;
+}
+#button:hover{
+    cursor: pointer;
+    color: #15213d;
 }
 #btn{
     width:90% ;
-    height: 58px;
-    /* border-style: groove; */
+    height: 50px;
     border-radius: 23px;
-    margin:265px 0px 0px 14px;
+    margin:267px 0px 0px 14px;
     font-size: 23px;
     background-color: rgb(240, 51, 51);
+    border: 1px solid #15213d;  
+    color: #fff;
+    bottom: -20px;
+    left: 38px;
+}
+#btn:hover{
+    cursor: pointer;
+    color: #15213d;
 }
 
-/* @media all and   (min-width:500px) and (max-width:1024px){
+#outlook{
+    line-height: 1.5;
+    font-weight: 300;
+    color: #676f81;
+    font-size: 14px;
+}
+#oneyear{
+    padding: 7px ; 
+    margin-top: 17px;
+}
+#twoyear{
+    padding: 7px ; 
+    margin-top: 17px;
+}
+#threeyear{
+    padding: 2px ; 
+    margin-top: 23px;
+}
+#year{
+    padding: 7px ;
+     margin-top: 17px;
+}
+
+
+
+@media all and   (min-width:375px) and (max-width:420px){
 
     #subbody{
         display: flex;
@@ -192,7 +239,31 @@ span>h3{
         border-style: groove;
         border-radius: 10px;
         margin: auto;
+        margin-bottom: 32px;
+        border-color: red;
     }
-} */
+
+    #radio>h3{
+        padding: 5px;
+        margin-top: 22px;
+    }
+
+    #oneyear{
+        padding: 3px ; 
+        margin-top: 23px;
+    }
+    #twoyear{
+        padding: 3px ; 
+        margin-top: 23px;
+    }
+    #threeyear{
+        padding: 3px ; 
+        margin-top: 23px;
+    }
+    #year{
+        padding: 3px ;
+         margin-top: 23px;
+    }
+}
 
 

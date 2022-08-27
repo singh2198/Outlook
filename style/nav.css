@@ -31,7 +31,7 @@
     margin: auto;
     margin-top: 46px;
     margin-bottom: 10px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 #menu>a{
     text-decoration: none;
@@ -58,4 +58,29 @@ nav{
 #login_sub>a:hover{
     text-decoration: none;
     color: rgb(206, 37, 37);
+}
+
+
+@media all and (min-width:370px) and (max-width:420px){
+
+    #logo{
+        display: flex;
+        flex-direction: column;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    /* #menu{
+        width: 90vw;
+        display: flex;
+        float: left;
+        margin: auto;
+        margin-top: 46px;
+        margin-bottom: 10px;
+        justify-content: space-between;
+    } */
+
+
+
+
 }

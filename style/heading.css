@@ -16,21 +16,22 @@
     /* border-style: groove; */
     padding: 10px;
 }
-#content>div>h4{
+.heading{
     font-size: 25px;
     color: rgb(20, 17, 17);
     margin: auto;
-}
-#content>div>h4:hover{
-    color: rgb(225, 75, 75);
-    cursor: pointer;
-}
-#content>div>p{
     text-align: justify;
     padding: 10px;
     font-family: "Open Sans", sans-serif;
-    
 }
+.heading:hover{
+    color: rgb(225, 75, 75);
+    cursor: pointer;
+    text-align: justify;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
 #content>div>li{
     font-family: "Open Sans", sans-serif;
 }
@@ -47,4 +48,16 @@ body>h4:hover{
     color: rgb(225, 75, 75);
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+}
+
+@media all and (min-width:370px) and (max-width:420px){
+
+    #content>img{
+        width: 76%;
+        height: 260px;
+        /* border-style: outset; */
+        padding: 10px;
+    }
+   
+
 }

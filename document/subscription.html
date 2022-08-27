@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/subcription.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Subcription</title>
 </head>
 <body>
+
+
+
     <header id="head">
         <div>
             <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India/banners/Outlook%20India%20-%20brandLogo-944bd8.png" alt="">
@@ -18,15 +22,15 @@
     </header>
     <div class="middle">
         <p>Choose Your Subcription Plan </p>
-        <p >Outlook Subcription </p>
+        <p  id="outlook">Outlook Subcription </p>
     </div>
     <!-- Subcription body having two div -->
     <div id="subbody">
         <div>
             <p>Digital Only Subscription: 1 Year</p>
             <div class="radio">
-                <input type="radio" style="margin-top: 17px;"> 
-                <h3 style="padding: 7px ; margin-top: 17px;">1 Year</h3>
+                <input type="radio" style="margin-top: 17px;" id="sub" > 
+                <h3 id="year">1 Year</h3>
                 <div id="innerdiv">
                     <h3 id="rupe">₹3640/-</h3>
                     <h4 id="dollar">₹499</h4>
@@ -40,112 +44,126 @@
                         <img src="https://subscriptions.outlookindia.com/tick.svg" alt="tick">
                         <span>Stories from print magazine</span>
                     </span>
+                        
                     
-                
                 </span>
                 <span>
                     <span>
                         <img src="https://subscriptions.outlookindia.com/tick.svg" alt="tick">
                         <span>Stories from print magazine</span>
                     </span>
+                        
                     
-                
                 </span>
             </div>
             <div id="offer">
                 <div>
                     <h2 id="offerh">
-                        Exciting Offer
+                         Exciting Offer
                     </h2>
                 </div>
             </div>
-            <div class="scrol">
-                <div id="offersection">
-                    <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79ae5e75e066466fcac08.png" alt="">
-                    <span>Flat 10% off up to Rs.1000 on flights - No minimum booking amount</span>
+                <div class="scrol">
+                    <div id="offersection">
+                        <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79ae5e75e066466fcac08.png" alt="">
+                        <span>Flat 10% off up to Rs.1000 on flights - No minimum booking amount</span>
+                    </div>
+                    <div id="offersection">
+                        <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79d98e75e066466fcafc1-eba6a4.png" alt="">
+                        <span>15% off upto Rs 200 + Flat Rs 300 AbhiBus cashback</span>
+                    </div>
+                    <div id="offersection">
+                        <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62db86cdc669be3c26f4c868.png" alt="">
+                        <span>Flat 12% off upto Rs 500 on Rs 999 purchase over and above the regular offer</span>
+                    </div>
+                    <div id="offersection">
+                        <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79ae5e75e066466fcac08.png" alt="">
+                        <span>Flat 10% off up to Rs.1000 on flights - No minimum booking amount</span>
+                    </div>
+                    <div id="offersection">
+                        <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79d98e75e066466fcafc1-eba6a4.png" alt="">
+                        <span>15% off upto Rs 200 + Flat Rs 300 AbhiBus cashback</span>
+                    </div>
+                    <div id="offersection">
+                        <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62db86cdc669be3c26f4c868.png" alt="">
+                        <span>Flat 12% off upto Rs 500 on Rs 999 purchase over and above the regular offer</span>
+                    </div>
                 </div>
-                <div id="offersection">
-                    <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79d98e75e066466fcafc1-eba6a4.png" alt="">
-                    <span>15% off upto Rs 200 + Flat Rs 300 AbhiBus cashback</span>
+                <div id="coupon">
+                    <input type="text" placeholder="Enter coupon Code">
+                    <div>
+                        <input  placeholder=">" id="apply">
+                    </div>
+                    
                 </div>
-                <div id="offersection">
-                    <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62db86cdc669be3c26f4c868.png" alt="">
-                    <span>Flat 12% off upto Rs 500 on Rs 999 purchase over and above the regular offer</span>
-                </div>
-                <div id="offersection">
-                    <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79ae5e75e066466fcac08.png" alt="">
-                    <span>Flat 10% off up to Rs.1000 on flights - No minimum booking amount</span>
-                </div>
-                <div id="offersection">
-                    <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62e79d98e75e066466fcafc1-eba6a4.png" alt="">
-                    <span>15% off upto Rs 200 + Flat Rs 300 AbhiBus cashback</span>
-                </div>
-                <div id="offersection">
-                    <img src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/offers/62db86cdc669be3c26f4c868.png" alt="">
-                    <span>Flat 12% off upto Rs 500 on Rs 999 purchase over and above the regular offer</span>
-                </div>
-            </div>
-            <div id="coupon">
-                <input type="text" placeholder="Enter coupon Code">
-                <div>
-                    <input  placeholder=">" id="apply">
-                </div>
+                <button id="button">Subscrip Now</button>
                 
             </div>
-            <button id="button">Subscrip Now</button>
-            
-        </div>
-        <div>
-            <p>PRINT ONLY SUBSCRIPTIONS</p>
-            <div id="container">
-                <div class="radio" >
-                    <input type="radio" style="margin-top: 17px;" class="sub" value="1 year"> 
-                    <h3 style="padding: 7px ; margin-top: 17px;">1 Year</h3>
-                    <div id="innerdiv">
-                        <h3 id="rupe">₹3640/-</h3>
-                        <h4 id="dollar">₹2799</h4>
-                        <h4 id="percen">(23% OFF)</h4>
+            <div>
+                <p>PRINT ONLY SUBSCRIPTIONS</p>
+                <div id="container">
+                    <div class="radio" >
+                        <input type="radio" style="margin-top: 17px;" id="sub" value="one" name="status"> 
+                        <h3 id="oneyear">1 Year</h3>
+                        <div id="innerdiv">
+                            <h3 id="rupe">₹3640/-</h3>
+                            <h4 id="dollar">₹2799</h4>
+                            <h4 id="percen">(23% OFF)</h4>
+                        </div>
+                        
                     </div>
-                    
-                </div>
-
-                <div class="radio">
-                    <input type="radio" style="margin-top: 17px;" class="sub" value="2 year"> 
-                    <h3 style="padding: 7px ; margin-top: 17px;">2 Year</h3>
-                    <div id="innerdiv">
-                        <h3 id="rupe">₹7280/-</h3>
-                        <h4 id="dollar">₹5199</h4>
-                        <h4 id="percen">(28% OFF)</h4>
+    
+                    <div class="radio">
+                        <input type="radio" style="margin-top: 17px;" id="sub2" value="two" name="status"> 
+                        <h3 id="twoyear">2 Year</h3>
+                        <div id="innerdiv">
+                            <h3 id="rupe">₹7280/-</h3>
+                            <h4 id="dollar">₹5199</h4>
+                            <h4 id="percen">(28% OFF)</h4>
+                        </div>
+                        
                     </div>
-                    
-                </div>
-
-                <div class="radio"  >
-                    <input type="radio" style="margin-top: 20px;" class="sub" value="3 year"> 
-                    <h3 style="padding: 2px ; margin-top: 23px;">3 Year</h3>
-                    <div id="innerdiv">
-                        <h3 id="rupe">₹10920/-</h3>
-                        <h4 id="dollar">₹5199</h4>
-                        <h4 id="percen">(33% OFF)</h4>
+    
+                    <div class="radio"  >
+                        <input type="radio" style="margin-top: 20px;" id="sub3" value="three" name="status"> 
+                        <h3 id="threeyear">3 Year</h3>
+                        <div id="innerdiv">
+                            <h3 id="rupe">₹10920/-</h3>
+                            <h4 id="dollar">₹5199</h4>
+                            <h4 id="percen">(33% OFF)</h4>
+                        </div>
+                        
                     </div>
-                    
                 </div>
-            </div>
-            
-            <span><h3 style="margin-top: 10px;">Benefits</h3></span>
-            <div id="benfit">
-                <span>
+                
+                <span><h3 style="margin-top: 10px;">Benefits</h3></span>
+                <div id="benfit">
                     <span>
-                        <img src="https://subscriptions.outlookindia.com/tick.svg" alt="tick">
-                        <span>Doorstep delivery of print editions and special print editions</span>
-                    </span>
+                        <span>
+                            <img src="https://subscriptions.outlookindia.com/tick.svg" alt="tick">
+                            <span>Doorstep delivery of print editions and special print editions</span>
+                        </span>
+                        
                     
-                
-                </span>
+                    </span>
+            </div>
+            <button id="btn">Subscrip Now</button>
         </div>
-        <button id="btn">Subscrip Now</button>
-    </div>
 
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+    
 
 
 
