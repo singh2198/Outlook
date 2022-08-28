@@ -4,15 +4,23 @@ document.querySelector("#btn").addEventListener("click",click)
 function click(){
 
 
-    let rad1=document.getElementById("#sub").value
+    let rad1=document.querySelector("#sub").value
+  
 
-    let rad2=document.getElementById("#sub2").value
+    if(rad1=="on"){
+        alert("your subcription is added ")
+    }
+    
 
-    let rad3=document.getElementById("#sub3").value
+    // let rad2=document.querySelectorAll("#sub2").value
 
-    console.log(rad1)
-    console.log(rad2)
-    console.log(rad3)
+    // let rad3=document.querySelectorAll("#sub3").value
+
+    // if(rad1=="one"){
+    //     console.log("hy")
+    // }
+
+    // alert("You get subcription of outlook")
 
     // if(selector=="one"){
     //     console.log("1 ")
